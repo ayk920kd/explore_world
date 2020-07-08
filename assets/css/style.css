@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header footer {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+/* top-wrapper css  */
+.top-wrapper {
+  background-image: url(../img/hill.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+header {
+  width: 1300px;
+  margin: 0 auto;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  
+}
+.header-right ul {
+  list-style: none;
+  display: flex;
+}
+.header-right li {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.header-right a {
+  color: white;
+  text-decoration: none;
+}
+.top-title {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-title h1 {
+  font-size: 120px;
+  font-weight: normal;
+}
+.top-title p {
+  font-size: 25px;
+}
+
+/* about css */
+#container {
+  width: 1300px;
+  margin: 0 auto;
+  color: rgb(65, 62, 62);
+}
+#container h1 {
+  font-weight: normal;
+  font-size: 38px;
+  padding: 80px 0 50px 0;
+}
+.about-contents {
+  display: flex;
+  align-items: center;
+}
+.contents-left img {
+  width: 480px;
+}
+.contents-right {
+  margin-left: 50px;
+}
+.contents-right h2 {
+  font-size: 27px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+.contents-right p {
+  line-height: 20px;
+}
+
+/* plan css */
+.plan-contents {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 15px;
+}
+.box h2 {
+  font-size: 28px;;
+  font-weight: normal;
+}
+.box p {
+  padding: 10px;
+  line-height: 15px;
+}
+
+/* contact css */
+#contact {
+  padding-bottom: 200px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.contact-form input,textarea {
+  width: 530px;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #223644;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin: 30px 0;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* footer css */
+footer {
+  background-color: rgb(16, 16, 88);
+  color: white;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
